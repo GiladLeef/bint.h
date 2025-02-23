@@ -6,6 +6,7 @@ bint is a custom C++ class that wraps the GMP (GNU Multiple Precision) library t
 ## Usage Example
 
 ```cpp
+// main.cpp
 #include "bint.h"
 #include <iostream>
 
@@ -32,7 +33,7 @@ int main() {
 
 Compile and run:
 ```sh
-g++ -std=c++17 main.cpp -lgmp -lgmpxx -o main
+g++ -o main main.cpp -lgmp -lgmpxx
 ./main
 ```
 
